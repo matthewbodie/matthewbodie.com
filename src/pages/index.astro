@@ -1,10 +1,23 @@
 ---
 import Layout from "../layouts/MainLayout.astro";
+import { myName, introduction } from "../data";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<h1>Hello World</h1>
+	<div class="flex justify-between items-center gap-12 my-12 mx-8">
+		<div class="flex flex-col gap-6 max-w-5xl">
+			<h1 class="text-9xl font-bold">{myName}</h1>
+			<p class="text-lg">{introduction}</p>
+		</div>
+		<div>
+			<img
+				src="src/assets/matthew/bodie_2020_400px.jpg"
+				alt="Matthew Bodie"
+				class="rounded-full w-80 h-80 object-cover"
+			/>
+		</div>
+	</div>
 </Layout>
