@@ -24,6 +24,12 @@ const Navbar = () => {
 						Home
 					</a>
 					<a
+						href="/about"
+						className="text-gray-800 hover:text-gray-600 transition duration-300"
+					>
+						About
+					</a>
+					<a
 						href="/cv"
 						className="text-gray-800 hover:text-gray-600 transition duration-300"
 					>

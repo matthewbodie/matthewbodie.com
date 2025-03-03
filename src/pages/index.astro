@@ -1,7 +1,8 @@
 ---
 import Layout from "../layouts/MainLayout.astro";
 import { myName, introduction } from "../data";
-
+import { Button } from "../components/ui/button";
+import { MoveRight } from "lucide-react";
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
@@ -16,6 +17,11 @@ import { myName, introduction } from "../data";
 				{myName}
 			</h1>
 			<p class="text-xl leading-relaxed">{introduction}</p>
+			<a href="/about">
+				<Button className="w-fit">
+					Learn More <MoveRight className="w-4 h-4" />
+				</Button>
+			</a>
 		</div>
 		<div>
 			<img
