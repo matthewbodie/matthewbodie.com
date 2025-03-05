@@ -1,9 +1,11 @@
 ---
 import MainLayout from "./MainLayout.astro";
+const { title } = Astro.props.frontmatter || Astro.props;
 ---
 
-<MainLayout>
+<MainLayout title={title}>
 	<div class="max-w-4xl mx-auto py-8 space-y-4">
+		<h1 class="text-4xl font-bold mb-6">{title}</h1>
 		<slot />
 	</div>
 </MainLayout>

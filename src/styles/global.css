@@ -127,4 +127,73 @@
 	body {
 		@apply bg-background text-foreground;
 	}
+
+	/* Markdown Content Styling */
+	a {
+		@apply text-blue-600 hover:underline;
+	}
+
+	strong,
+	b {
+		@apply font-bold;
+	}
+
+	em,
+	i {
+		@apply italic;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-bold my-4;
+	}
+
+	h1 {
+		@apply text-3xl;
+	}
+
+	h2 {
+		@apply text-2xl;
+	}
+
+	h3 {
+		@apply text-xl;
+	}
+
+	ul,
+	ol {
+		@apply pl-6 my-4;
+	}
+
+	ul {
+		@apply list-disc;
+	}
+
+	ol {
+		@apply list-decimal;
+	}
+
+	p {
+		@apply my-4;
+	}
+
+	blockquote {
+		@apply pl-4 border-l-4 border-gray-300 italic my-4;
+	}
+
+	hr {
+		@apply my-6 border-t border-gray-300;
+	}
+
+	code {
+		@apply bg-gray-100 px-1 py-0.5 rounded text-sm;
+	}
+
+	pre {
+		@apply bg-gray-100 p-4 rounded my-4 overflow-auto;
+	}
 }
