@@ -7,7 +7,7 @@ title: "About"
   <img src="src/assets/Matthew_Bodie_Logo.png" alt="A logo that says: Matthew Bodie - Wisdom, excellence, goodwill" width="180" height="210" />
 </div>
 
-Pleased to meet you...
+### Pleased to meet you...
 
 I'm Matthew Bodie, currently the Executive Director of Learning Resources at St. Petersburg College, and a seasoned college administrator with 13 years of leadership experience in building and enhancing programs, partnerships, and initiatives centered on student and faculty success.
 
