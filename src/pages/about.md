@@ -4,7 +4,7 @@ title: "About"
 ---
 
 <div class="flex justify-center items-center mb-8">
-  <img src="src/assets/Matthew_Bodie_Logo.png" alt="A logo that says: Matthew Bodie - Wisdom, excellence, goodwill" width="180" height="210" />
+  <img src="/images/Matthew_Bodie_Logo.png" alt="A logo that says: Matthew Bodie - Wisdom, excellence, goodwill" width="180" height="210" />
 </div>
 
 ### Pleased to meet you...
