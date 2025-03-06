@@ -1,0 +1,50 @@
+---
+import Layout from "../layouts/post.astro";
+import { Button } from "@/components/ui/button";
+import { philosophyCards } from "@/data";
+import {
+	FileText,
+	Pencil,
+	BookOpen,
+	User,
+	ClipboardCheck,
+	Star,
+	File,
+} from "lucide-react";
+import type { ComponentType } from "react";
+
+// Map of icon names to components
+const iconMap: Record<string, ComponentType<any>> = {
+	FileText,
+	Pencil,
+	BookOpen,
+	User,
+	ClipboardCheck,
+	Star,
+	File,
+};
+---
+
+<Layout title="Philosophy">
+	<div class="flex flex-col gap-4">
+		{
+			philosophyCards.map((card) => {
+				const IconComponent = iconMap[card.iconName || "File"];
+				return (
+					<a
+						href={card.link || "#"}
+						class="w-full no-underline cursor-pointer"
+					>
+						<Button
+							variant="outline"
+							className="justify-start text-xl py-8 w-full"
+						>
+							<IconComponent className="mx-2 h-12 w-12" />
+							{card.title}
+						</Button>
+					</a>
+				);
+			})
+		}
+	</div>
+</Layout>

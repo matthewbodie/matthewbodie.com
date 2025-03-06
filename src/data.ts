@@ -58,3 +58,27 @@ export const teachingCards: TeachingCardType[] = [
     iconName: "Star"
   }
 ]; 
+
+export interface PhilosophyCardType {
+  title: string;
+  link?: string;
+  iconName?: string;
+}
+
+export const philosophyCards: PhilosophyCardType[] = [
+  {
+    title: "Philosophy of Leadership",
+    link: "assets/philosophy/bodie-philosophy-of-leadership.pdf",
+    iconName: "User"
+  },
+  {
+    title: "Philosophy of Education",
+    link: "assets/philosophy/philosophy-of-education-2018-2.pdf",
+    iconName: "BookOpen"
+  },
+  {
+    title: "Philosophy of Teaching Writing",
+    link: "assets/philosophy/bodie-philosophy-of-teaching-writing.pdf",
+    iconName: "Pencil"
+  },
+];
