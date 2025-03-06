@@ -1,0 +1,23 @@
+---
+interface Props {
+	pdfPath: string;
+	label?: string;
+}
+
+const { pdfPath, label = "Download PDF" } = Astro.props;
+---
+
+<a
+	href={pdfPath}
+	download
+	class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 transition-[color,box-shadow] h-9 px-4 py-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+>
+	{label}
+</a>
+
+<style>
+	a {
+		text-decoration: none;
+	}
+</style>
+
