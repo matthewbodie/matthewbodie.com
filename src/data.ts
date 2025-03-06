@@ -6,6 +6,8 @@ export const introduction =
   "building and enhancing programs, partnerships, and initiatives " +
   "centered on student and faculty success.";
 
+export const cvLink = "/assets/Bodie_CV_2025-03_work_address.pdf"
+
 export interface TeachingCardType {
   title: string;
   description?: string;
@@ -25,7 +27,7 @@ export const teachingCards: TeachingCardType[] = [
   {
     title: "Sample Assignment (FYC)",
     description: "Example assignment for First-Year Composition courses.",
-    link: "#",
+    link: "https://spcollege.libguides.com/c.php?g=254571&p=10485169",
     linkText: "View Assignment",
     iconName: "Pencil"
   },
@@ -46,7 +48,7 @@ export const teachingCards: TeachingCardType[] = [
   {
     title: "Surveys and Evaluations of Teaching",
     description: "Collection of student feedback and teaching evaluations.",
-    link: "assets/bodie-surveys-and-evaluations-of-teaching.pdf",
+    link: "/assets/bodie-surveys-and-evaluations-of-teaching.pdf",
     linkText: "View Evaluations",
     iconName: "ClipboardCheck"
   },
@@ -68,17 +70,17 @@ export interface PhilosophyCardType {
 export const philosophyCards: PhilosophyCardType[] = [
   {
     title: "Philosophy of Leadership",
-    link: "assets/philosophy/bodie-philosophy-of-leadership.pdf",
+    link: "/assets/philosophy/bodie-philosophy-of-leadership.pdf",
     iconName: "User"
   },
   {
     title: "Philosophy of Education",
-    link: "assets/philosophy/philosophy-of-education-2018-2.pdf",
+    link: "/assets/philosophy/philosophy-of-education-2018-2.pdf",
     iconName: "BookOpen"
   },
   {
     title: "Philosophy of Teaching Writing",
-    link: "assets/philosophy/bodie-philosophy-of-teaching-writing.pdf",
+    link: "/assets/philosophy/bodie-philosophy-of-teaching-writing.pdf",
     iconName: "Pencil"
   },
 ];

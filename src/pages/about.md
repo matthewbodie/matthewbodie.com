@@ -19,6 +19,6 @@ Additionally, I've fostered student opportunity, belonging, and success through 
 
 I actively collaborate with many internal and external partners, building strong relationships with teams across the college, as well as with state and regional library consortia, city library leaders, and educational technology vendors.
 
-My philosophy of leadership focuses on [seven Cs](https://matthewbodie.files.wordpress.com/2021/03/bodie-philosophy-of-leadership.pdf): communication, collaboration, creativity, care, character, calculation, and context.
+My philosophy of leadership focuses on [seven Cs](/assets/philosophy/bodie-philosophy-of-leadership.pdf): communication, collaboration, creativity, care, character, calculation, and context.
 
 Feel free to peruse this site or [email me](mailto:bodie.matthew@spcollege.edu?Subject=Hello) to learn more about my professional background and interests.  Thanks again for stopping by, and here's wishing you every success the day may bring.
