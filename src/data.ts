@@ -32,28 +32,28 @@ export const teachingCards: TeachingCardType[] = [
   {
     title: "Sample Course (Tech Comm)",
     description: "Overview of a Technical Communication course structure and materials.",
-    link: "#",
+    link: "https://bodietechwriting.wordpress.com/",
     linkText: "View Course",
     iconName: "BookOpen"
   },
   {
     title: "SPC Faculty Page",
     description: "Official faculty profile at St. Petersburg College.",
-    link: "#",
+    link: "https://web.spcollege.edu/instructors/id/bodie.matthew/BIO/",
     linkText: "Visit Faculty Page",
     iconName: "User"
   },
   {
     title: "Surveys and Evaluations of Teaching",
     description: "Collection of student feedback and teaching evaluations.",
-    link: "#",
+    link: "assets/bodie-surveys-and-evaluations-of-teaching.pdf",
     linkText: "View Evaluations",
     iconName: "ClipboardCheck"
   },
   {
     title: "RMP Page",
     description: "Rate My Professor profile and student reviews.",
-    link: "#",
+    link: "https://www.ratemyprofessors.com/professor/1392972",
     linkText: "View Profile",
     iconName: "Star"
   }
