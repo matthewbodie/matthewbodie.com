@@ -31,7 +31,10 @@ const iconMap: Record<string, ComponentType<any>> = {
 			teachingCards.map((card) => {
 				const IconComponent = iconMap[card.iconName || "File"];
 				return (
-					<a href={card.link || "#"} class="w-full no-underline">
+					<a
+						href={card.link || "#"}
+						class="w-full no-underline cursor-pointer"
+					>
 						<Button
 							variant="outline"
 							className="justify-start text-xl py-8 w-full"
