@@ -1,5 +1,6 @@
 ---
 import Navbar from "../components/navbar";
+import { Toaster } from "../components/ui/sonner";
 const {
 	title = "Matthew Bodie | Career Dossier and Course Research and Ramblings",
 	description = "A collection of my career dossier, course research, and ramblings.",
@@ -24,6 +25,7 @@ const {
 		<link href="/src/styles/global.css" rel="stylesheet" />
 	</head>
 	<body>
+		<Toaster client:load />
 		<Navbar />
 		<slot />
 	</body>
