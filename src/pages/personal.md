@@ -3,9 +3,16 @@ layout: "../layouts/post.astro"
 title: "Personal"
 ---
 
-<img className="pointer-events-none drop-shadow-sm" src="src/assets/bodie_family_easter_2017_cropped.webp" alt="Bodie family Easter 2017" style="float: right; width: 250px; margin: 0 0 10px 15px;">
+<div class="hidden sm:block" style="float: right; width: 250px; margin: 0 0 10px 15px;">
+  <img class="pointer-events-none drop-shadow-sm w-full" src="/src/assets/bodie_family_easter_2017_cropped.webp" alt="Bodie family Easter 2017">
+</div>
+
 Outside of my professional career, I enjoy spending time with my beautiful wife and two (usually) happy and hilarious children.
 <br />
+
+<div class="block sm:hidden mb-4 mt-2 mx-auto" style="width: 100%; max-width: 300px;">
+  <img class="pointer-events-none drop-shadow-sm w-full" src="/src/assets/bodie_family_easter_2017_cropped.webp" alt="Bodie family Easter 2017">
+</div>
 
 I also read a great deal, including too many insipid social media postings, and I am still trying to get through all of the "classics" purchased over the years (nineteenth century lit is still my favorite); however, much of that pursuit has been tabled, as I work to finish [my PhD](https://sites.wp.odu.edu/englishphd/) in Rhetoric, Discourse & Writing Studies at ODU (Go Monarchs!). In addition to reading the works of others, I also have made some attempts at the creative process myself in the form of [poetry](http://matthewbodie.wordpress.com/2013/02/18/the-minor-character-reprint/) (hey, I didn't say they were *great* attempts).
 

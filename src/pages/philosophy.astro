@@ -37,10 +37,10 @@ const iconMap: Record<string, ComponentType<any>> = {
 					>
 						<Button
 							variant="outline"
-							className="justify-start text-xl py-8 w-full"
+							className="justify-start text-xl py-8 w-full whitespace-normal min-h-[80px] flex items-center"
 						>
-							<IconComponent className="mx-2 h-12 w-12" />
-							{card.title}
+							<IconComponent className="mx-2 h-12 w-12 flex-shrink-0" />
+							<span class="text-left">{card.title}</span>
 						</Button>
 					</a>
 				);

@@ -126,6 +126,23 @@
 	}
 	body {
 		@apply bg-background text-foreground;
+		overflow-x: hidden;
+	}
+
+	/* Mobile responsiveness */
+	html,
+	body {
+		-webkit-text-size-adjust: 100%;
+		overflow-x: hidden;
+		width: 100%;
+	}
+
+	/* Prevent content overflow on mobile */
+	img,
+	video,
+	iframe {
+		max-width: 100%;
+		height: auto;
 	}
 
 	/* Markdown Content Styling */
@@ -153,20 +170,20 @@
 	}
 
 	h1 {
-		@apply text-3xl;
+		@apply text-3xl sm:text-4xl md:text-5xl;
 	}
 
 	h2 {
-		@apply text-2xl;
+		@apply text-2xl sm:text-3xl;
 	}
 
 	h3 {
-		@apply text-xl;
+		@apply text-xl sm:text-2xl;
 	}
 
 	ul,
 	ol {
-		@apply pl-6 my-4;
+		@apply pl-4 sm:pl-6 my-4;
 	}
 
 	ul {
@@ -191,9 +208,10 @@
 
 	code {
 		@apply bg-gray-100 px-1 py-0.5 rounded text-sm;
+		word-break: break-word;
 	}
 
 	pre {
-		@apply bg-gray-100 p-4 rounded my-4 overflow-auto;
+		@apply bg-gray-100 p-2 sm:p-4 rounded my-4 overflow-auto;
 	}
 }

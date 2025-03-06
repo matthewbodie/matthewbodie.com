@@ -4,7 +4,7 @@ title: "Curriculum Vitae"
 ---
 
 <div class="pdf-container">
-  <iframe src="/assets/bodie_cv_2024-02_school_address.pdf" width="100%" height="800px" style="border: none;"></iframe>
+  <iframe src="/assets/bodie_cv_2024-02_school_address.pdf" width="100%" height="1200px" style="border: none;"></iframe>
 </div>
 
 <div class="download-link">
@@ -24,11 +24,25 @@ title: "Curriculum Vitae"
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: calc(100vh - 150px);
+    min-height: 800px;
+  }
+  
+  .pdf-container iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 800px;
   }
   
   .download-link {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .pdf-container {
+      height: calc(100vh - 100px);
+    }
   }
 </style>
